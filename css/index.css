@@ -1,0 +1,46 @@
+:root {
+    --redberry-red: #FE3B1F;
+    --primary--white: #FFFFFF;
+    --primary--bg: #454545;
+}
+
+body {
+    background: radial-gradient(50% 50% at 50% 50%, #0C0D0E 0%, #151718 73.44%);
+    mix-blend-mode: normal;
+    background-size: cover;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+
+.header {
+    color: var(--redberry-red);
+    font-family: Rowdies;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 119px;
+}
+
+.registration__button {
+    background-color: var(--redberry-red);
+    color: var(--primary--white);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+}
+
+.submitted__applications  {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: var(--primary--white);
+}
+
+
