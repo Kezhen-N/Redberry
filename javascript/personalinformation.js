@@ -4,6 +4,7 @@ const lname = document.getElementById('lname');
 const email = document.getElementById('email');
 const phonenumber = document.getElementById('phonenumber');
 
+
 form.addEventListener('click', e => {
 	e.preventDefault();
 	
@@ -19,7 +20,12 @@ function checkInputs() {
 	
 	if(fnameValue === '') {
 		setErrorFor(fname, 'First name cannot be blank');
-	} else {
+	} else if (fnameValue.length<2) {
+        setErrorFor(fname, 'Name should be at least 2 characters long')
+        console.log('eror');
+    }
+    
+    else {
 		setSuccessFor(fname);
 	}
 	
