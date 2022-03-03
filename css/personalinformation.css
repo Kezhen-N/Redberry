@@ -1,0 +1,33 @@
+:root {
+    --redberry-red: #FE3B1F;
+    --primary--white: #FFFFFF;
+    --primary--bg: #454545;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.contact__section {
+    width: 50vw;
+    background-color: var(--primary--white);
+}
+
+.info__section {
+    width: 50vw;
+    background-color: var(--primary--bg);
+}
+
+.form__input-success input {
+	border-color: #2ecc71;
+}
+
+.form__input-error input
+{
+    border-color: var(--redberry-red);
+}
+
+.form__input-group small {
+    visibility: hidden;
+}
