@@ -1,0 +1,20 @@
+:root {
+    --redberry-red: #FE3B1F;
+    --primary--white: #FFFFFF;
+    --primary--bg: #454545;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.covid__form {
+    width: 50vw;
+    background-color: var(--primary--white);
+}
+
+.covid__info {
+    width: 50vw;
+    background-color: var(--primary--bg);
+}
