@@ -21,10 +21,8 @@ function checkInputs() {
 	if(fnameValue === '') {
 		setErrorFor(fname, 'First name cannot be blank');
 	} else if (fnameValue.length<2) {
-        setErrorFor(fname, 'Name should be at least 2 characters long')
-        console.log('eror');
+        setErrorFor(fname, 'First Name should be at least 2 characters long')
     }
-    
     else {
 		setSuccessFor(fname);
 	}
@@ -32,7 +30,10 @@ function checkInputs() {
 
     if(lnameValue === '') {
 		setErrorFor(lname, 'Last name cannot be blank');
-	} else {
+	} 
+    else if (lnameValue.length<2) {
+        setErrorFor(lname, 'Last Name should be at least 2 characters long')
+    } else {
 		setSuccessFor(lname);
 	}
 	
