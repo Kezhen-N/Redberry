@@ -2,13 +2,17 @@
 
 <head>
     <title>Covid</title>
+    <link rel="stylesheet" href="css/covid.css">
+
 </head>
 
 
 <body>
+    <img src="/sources/stars.png" alt="stars">
+    <div class="container">  
     <div class="covid__form">
     
-    <form>
+    <form class="form__input" id="form">
         <h1>Covid Stuff</h1>
 
     <!-- Question #1-->
@@ -29,7 +33,7 @@
         </div>
     </div>
         
-    </form> 
+  
 
     <!-- Question #2-->
 
@@ -49,7 +53,7 @@
 
         <!-- Question #3 -->
         <div class="question3">
-            <p> When did you get your last covid vaccine?</p>
+            <p> When?</p>
         </div>
         <!-- Question #4-->
 
@@ -71,11 +75,11 @@
             <p> When did you get your last covid vaccine?</p>
         </div>
 
-
+        <button class="next">next</button>
     </div>
 
     
-    <div class="covid__information">
+    <div class="covid__info">
         <p>
             As this infamous pandemic took over the world,
              we adjusted our working practices so that our employees can be as safe
@@ -86,7 +90,13 @@
                 Both on the fun and productivity scales. 
         </p>
     </div>
-    
 
+</form> 
+
+
+</div>
+
+
+<script src="javascript/covid.js"></script>
 
 </body>
