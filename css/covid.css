@@ -18,3 +18,9 @@
     width: 50vw;
     background-color: var(--primary--bg);
 }
+
+img {
+    position: absolute;
+    top: 80px;
+    right: 15px;
+}
